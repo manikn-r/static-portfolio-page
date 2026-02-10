@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.content, .contact-page-content{
+    margin: 30px;
+    > div{
+        margin-bottom: 15px;
+    }
+    .section-one{
+        background: #000;
+    color: #FFF;
+    padding: 10px;
+    .section-one__name{
+        font-size: 40px;
+    }
+    .section-one__role{
+        font-size: 25px;
+    }
+    .section-one__contact{
+        font-size: 15px;
+    }
+    .section-one__contact{
+        text-decoration: none;
+    background: orangered;
+    padding: 5px;
+    display: inline-block;
+    margin-top: 5px;
+    color: #FFF;
+    border-radius: 3px;
+    }
+    }
+    .section-three__lists, .section-four__projects{
+        li{
+            list-style: none;
+            margin: 3px 0;
+        }
+    }
+    .section-four__projects p, .section-one__role{
+        margin: 10px 0;
+    }
+    .section-three{
+            display: inline-block;
+    height: 180px;
+    padding: 10px;
+    background: #6462FD;
+    vertical-align: top;
+    border-radius: 10px;
+    }
+    .section-four{
+        display: inline-block;
+    padding: 10px;
+    height: 180px;
+    background: #FE7517;
+    vertical-align: top;
+    border-radius: 10px;
+    width: 70%;
+    }
+    .section-five{
+    padding: 10px;
+    background: #000;
+    color: #FFF;
+    .section-five__smedia{
+        color: skyblue;
+        margin-left: 5px;
+    }
+    }
+    .section-two__title, .section-three__title, .section-four__title, .section-five__title{
+        margin-bottom: 10px;
+    }
+}
+.contact-form{
+   .contact-form__submit{
+        font-size: 15px;
+ text-decoration: none;
+    background: orangered;
+    padding: 5px;
+    display: inline-block;
+    margin-top: 5px;
+    color: #FFF;
+    border-radius: 3px;
+    border:none;
+    }
+    .contact-form__input{
+            border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    }
+    .contact-form__textArea{
+    border: none;
+    border: 1px solid #000;
+    outline: none;
+    padding: 5px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+    }
+}
